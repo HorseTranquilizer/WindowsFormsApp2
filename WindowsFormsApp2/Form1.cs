@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +20,13 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             James.Visible = true;
+            BadJames.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
            BadJames.Visible = true;
+           James.Visible=false;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
